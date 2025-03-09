@@ -29,4 +29,8 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons of pancakes? What is it in terms of the number of flips?
 Add your answer to this markdown file.
 
+Asymptotically the average runtime will be $\Theta (n^2)$ as the first loop will take n unit time and the second loop will take n divided by some constant depending on how sorted it is so asymptotically it will also be n.
+
+In terms of flips it will be $3 \cdot n^2$ since each swap takes 3 calls of the flip function. Which will also be $\Theta (n^2)$ as we drop the constant.
+
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
